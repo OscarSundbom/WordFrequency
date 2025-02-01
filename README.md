@@ -7,9 +7,9 @@ orden.
 
 ## Installation
 
-Klona detta repot
-Java 11 eller senare installerat
-Öppna applikationen med din IDE och starta WordFrequencyApplication
+- Klona detta repot
+- Använd Java 11 eller senare
+- Öppna applikationen med din IDE och starta WordFrequencyApplication
 
 ## Användning
 
@@ -17,6 +17,8 @@ API:et exponerar en endpoint:
 POST http://localhost:3000/count
 
 ### Exempel på användning
+
+Kör via terminal:
 
 ```bash
 curl -H "Content-type: text/plain" -X "POST" -d "Banan Äpple Katt Hund Banan Hund Katt Hund" http://localhost:3000/count
